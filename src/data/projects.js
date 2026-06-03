@@ -1,7 +1,84 @@
 export const projects = [
   {
+    slug: "crm",
+    video: "/projects/crm.mp4",
+    title: {
+      pt: "CRM",
+      en: "CRM",
+    },
+    shortDescription: {
+      pt: "Sistema CRM para organizar clientes, contatos, oportunidades e acompanhamento comercial em uma interface administrativa.",
+      en: "A CRM system for organizing customers, contacts, opportunities, and sales follow-up in an administrative interface.",
+    },
+    description: {
+      pt: "Projeto de CRM desenvolvido para centralizar o relacionamento com clientes, facilitar o acompanhamento de oportunidades e organizar o fluxo comercial. A interface apresenta uma experiência administrativa com foco em cadastro, consulta, status de atendimento e visão prática para a rotina de vendas.",
+      en: "A CRM project built to centralize customer relationships, make opportunity tracking easier, and organize the sales workflow. The interface provides an administrative experience focused on registration, search, service status, and a practical view for sales routines.",
+    },
+    stack: ["React", "Next.js", "Node.js", "PostgreSQL"],
+    highlights: {
+      pt: [
+        "Cadastro e organização de clientes",
+        "Acompanhamento de contatos e oportunidades",
+        "Interface administrativa para rotina comercial",
+        "Estrutura preparada para filtros, status e consultas",
+      ],
+      en: [
+        "Customer registration and organization",
+        "Contact and opportunity tracking",
+        "Administrative interface for sales routines",
+        "Structure prepared for filters, statuses, and searches",
+      ],
+    },
+    challenges: {
+      pt: [
+        "Organizar informações comerciais de forma clara",
+        "Criar uma experiência simples para consulta e acompanhamento",
+        "Pensar em uma base escalável para novos módulos do CRM",
+      ],
+      en: [
+        "Organizing sales information clearly",
+        "Creating a simple experience for search and follow-up",
+        "Designing a scalable base for new CRM modules",
+      ],
+    },
+    learnings: {
+      pt: [
+        "Modelagem de dados para relacionamento com clientes",
+        "Criação de interfaces administrativas",
+        "Organização de fluxos comerciais em uma aplicação web",
+      ],
+      en: [
+        "Data modeling for customer relationships",
+        "Building administrative interfaces",
+        "Organizing sales workflows in a web application",
+      ],
+    },
+    nextSteps: {
+      pt: [
+        "Adicionar funil de vendas",
+        "Criar histórico de interações por cliente",
+        "Implementar filtros por status e responsável",
+      ],
+      en: [
+        "Add a sales pipeline",
+        "Create customer interaction history",
+        "Implement filters by status and owner",
+      ],
+    },
+  },
+  {
     slug: "rota-de-oportunidade",
     image: "/projects/rota-oportunidade.png",
+    imageView: {
+      card: {
+        transform: "scale(1.28) translateY(-9%)",
+        transformOrigin: "center center",
+      },
+      detail: {
+        transform: "scale(1.18) translateY(-15%)",
+        transformOrigin: "center center",
+      },
+    },
     title: {
       pt: "Rota de Oportunidade",
       en: "Route of Opportunity",
@@ -69,6 +146,16 @@ export const projects = [
   {
     slug: "dashboard-com-dados-do-banco",
     image: "/projects/dashboard-banco.png",
+    imageView: {
+      card: {
+        transform: "scale(1.18) translate(-7%, -1%)",
+        transformOrigin: "center center",
+      },
+      detail: {
+        transform: "scale(1.14) translate(-6%, -1%)",
+        transformOrigin: "center center",
+      },
+    },
     title: {
       pt: "Dashboard com dados do banco",
       en: "Database Metrics Dashboard",
@@ -136,6 +223,16 @@ export const projects = [
   {
     slug: "retropatio",
     image: "/projects/retropatio.png",
+    imageView: {
+      card: {
+        transform: "scale(1.12) translateX(-4%)",
+        transformOrigin: "center center",
+      },
+      detail: {
+        transform: "scale(1.08) translateX(-3%)",
+        transformOrigin: "center center",
+      },
+    },
     title: {
       pt: "Retropatio",
       en: "Retropatio",
@@ -209,6 +306,16 @@ export const projects = [
   {
     slug: "rota-sustentavel",
     image: "/projects/intranet.png",
+    imageView: {
+      card: {
+        transform: "scale(1.18) translate(-8%, -1%)",
+        transformOrigin: "center center",
+      },
+      detail: {
+        transform: "scale(1.14) translate(-7%, -1%)",
+        transformOrigin: "center center",
+      },
+    },
     title: {
       pt: "Rota Sustentável",
       en: "Sustainable Route",
@@ -276,6 +383,16 @@ export const projects = [
   {
     slug: "controle-de-portaria",
     image: "/projects/image.png",
+    imageView: {
+      card: {
+        transform: "scale(1.12) translateX(-4%)",
+        transformOrigin: "center center",
+      },
+      detail: {
+        transform: "scale(1.08) translateX(-3%)",
+        transformOrigin: "center center",
+      },
+    },
     title: {
       pt: "Controle de Portaria",
       en: "Gatehouse Control",

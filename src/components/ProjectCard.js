@@ -5,11 +5,25 @@ import { useLocale, useTranslations } from "next-intl";
 export default function ProjectCard({ project }) {
   const locale = useLocale();
   const t = useTranslations("Projects");
+  const mediaStyle = project.videoView?.card ?? project.imageView?.card;
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-[var(--color-line)] bg-[rgba(13,19,32,0.86)] shadow-[0_18px_48px_rgba(0,0,0,0.22)] transition duration-300 hover:-translate-y-1.5 hover:border-[rgba(103,232,249,0.34)] hover:shadow-[0_24px_70px_rgba(0,0,0,0.32)]">
       <div className="relative h-56 w-full overflow-hidden bg-[var(--color-deep)]">
-        {project.image ? (
+        {project.video ? (
+          <>
+            <video
+              src={project.video}
+              aria-label={`${t("previewAlt")} ${project.title[locale]}`}
+              muted
+              playsInline
+              preload="metadata"
+              className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              style={mediaStyle}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[rgba(5,7,13,0.92)] via-[rgba(5,7,13,0.1)] to-transparent" />
+          </>
+        ) : project.image ? (
           <>
             <Image
               src={project.image}
@@ -17,6 +31,7 @@ export default function ProjectCard({ project }) {
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               className="object-cover transition duration-700 group-hover:scale-105"
+              style={mediaStyle}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(5,7,13,0.9)] via-[rgba(5,7,13,0.18)] to-transparent" />
           </>

@@ -20,6 +20,8 @@ export default async function ProjectDetailsPage({ params }) {
     notFound();
   }
 
+  const mediaStyle = project.videoView?.detail ?? project.imageView?.detail;
+
   return (
     <section className="py-16 md:py-24">
       <div className="container-default max-w-4xl">
@@ -35,7 +37,21 @@ export default async function ProjectDetailsPage({ params }) {
           {project.description[locale]}
         </p>
 
-        {project.image ? (
+        {project.video ? (
+          <div className="mt-10 overflow-hidden rounded-lg border border-[var(--color-line)] bg-[rgba(13,19,32,0.86)] shadow-[var(--shadow-soft)]">
+            <div className="aspect-[16/9] w-full bg-[var(--color-deep)]">
+              <video
+                src={project.video}
+                aria-label={`${t("eyebrow")} ${project.title[locale]}`}
+                controls
+                playsInline
+                preload="metadata"
+                className="h-full w-full object-cover"
+                style={mediaStyle}
+              />
+            </div>
+          </div>
+        ) : project.image ? (
           <div className="mt-10 overflow-hidden rounded-lg border border-[var(--color-line)] bg-[rgba(13,19,32,0.86)] shadow-[var(--shadow-soft)]">
             <div className="relative aspect-[16/9] w-full bg-[var(--color-deep)]">
               <Image
@@ -45,6 +61,7 @@ export default async function ProjectDetailsPage({ params }) {
                 priority
                 sizes="(max-width: 768px) 100vw, 896px"
                 className="object-cover"
+                style={mediaStyle}
               />
             </div>
           </div>

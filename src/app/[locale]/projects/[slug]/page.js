@@ -1,5 +1,5 @@
 import { projects } from "@/data/projects";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -10,9 +10,9 @@ export function generateStaticParams() {
 }
 
 export default async function ProjectDetailsPage({ params }) {
-  const { slug } = await params;
-  const locale = await getLocale();
-  const t = await getTranslations("ProjectDetails");
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "ProjectDetails" });
 
   const project = projects.find((item) => item.slug === slug);
 

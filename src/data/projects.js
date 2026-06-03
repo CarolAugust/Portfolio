@@ -1,7 +1,37 @@
 export const projects = [
   {
     slug: "crm",
-    video: "/projects/crm.mp4",
+    image: "/projects/crm1.png",
+    images: [
+      {
+        src: "/projects/crm1.png",
+        alt: {
+          pt: "Tela principal do CRM com lista de clientes e indicadores comerciais.",
+          en: "CRM main screen with customer list and sales indicators.",
+        },
+      },
+      {
+        src: "/projects/crm2.png",
+        alt: {
+          pt: "Tela de detalhes do cliente no CRM.",
+          en: "Customer details screen in the CRM.",
+        },
+      },
+      {
+        src: "/projects/crmcotacao.png",
+        alt: {
+          pt: "Tela de cotacao do CRM.",
+          en: "CRM quote screen.",
+        },
+      },
+      {
+        src: "/projects/detalhescotacao.png",
+        alt: {
+          pt: "Detalhes de cotacao dentro do CRM.",
+          en: "Quote details inside the CRM.",
+        },
+      },
+    ],
     title: {
       pt: "CRM",
       en: "CRM",

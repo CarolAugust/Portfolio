@@ -21,6 +21,7 @@ export default async function ProjectDetailsPage({ params }) {
   }
 
   const mediaStyle = project.videoView?.detail ?? project.imageView?.detail;
+  const projectImages = project.images ?? (project.image ? [{ src: project.image }] : []);
 
   return (
     <section className="py-16 md:py-24">
@@ -51,19 +52,26 @@ export default async function ProjectDetailsPage({ params }) {
               />
             </div>
           </div>
-        ) : project.image ? (
-          <div className="mt-10 overflow-hidden rounded-lg border border-[var(--color-line)] bg-[rgba(13,19,32,0.86)] shadow-[var(--shadow-soft)]">
-            <div className="relative aspect-[16/9] w-full bg-[var(--color-deep)]">
-              <Image
-                src={project.image}
-                alt={`${t("eyebrow")} ${project.title[locale]}`}
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, 896px"
-                className="object-cover"
-                style={mediaStyle}
-              />
-            </div>
+        ) : projectImages.length ? (
+          <div className="mt-10 grid gap-4">
+            {projectImages.map((image, index) => (
+              <div
+                key={image.src}
+                className="overflow-hidden rounded-lg border border-[var(--color-line)] bg-[rgba(13,19,32,0.86)] shadow-[var(--shadow-soft)]"
+              >
+                <div className="relative aspect-[16/9] w-full bg-[var(--color-deep)]">
+                  <Image
+                    src={image.src}
+                    alt={image.alt?.[locale] ?? `${t("eyebrow")} ${project.title[locale]}`}
+                    fill
+                    priority={index === 0}
+                    sizes="(max-width: 768px) 100vw, 896px"
+                    className="object-contain"
+                    style={index === 0 ? mediaStyle : undefined}
+                  />
+                </div>
+              </div>
+            ))}
           </div>
         ) : null}
 

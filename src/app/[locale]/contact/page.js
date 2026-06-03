@@ -49,7 +49,7 @@ export default function ContactPage() {
                     GH
                   </div>
                   <Link
-                    href="https://github.com/carol-augusto"
+                    href="https://github.com/CarolAugust"
                     target="_blank"
                     className="break-all text-base text-[var(--color-muted)] transition hover:text-white md:text-lg"
                   >
@@ -62,7 +62,7 @@ export default function ContactPage() {
                     IN
                   </div>
                   <Link
-                    href="https://linkedin.com/in/caroline-augusto-dev"
+                    href="www.linkedin.com/in/carolineaugusto"
                     target="_blank"
                     className="break-all text-base text-[var(--color-muted)] transition hover:text-white md:text-lg"
                   >

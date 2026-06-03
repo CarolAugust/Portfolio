@@ -40,10 +40,10 @@ export default function Footer() {
                 Network
               </p>
               <div className="mt-4 flex flex-col gap-3">
-                <Link href="https://github.com/carol-augusto" target="_blank" className="text-lg font-semibold text-[var(--color-muted)] transition hover:text-white">
+                <Link href="https://github.com/CarolAugust" target="_blank" className="text-lg font-semibold text-[var(--color-muted)] transition hover:text-white">
                   GitHub
                 </Link>
-                <Link href="https://linkedin.com/in/caroline-augusto-dev" target="_blank" className="text-lg font-semibold text-[var(--color-muted)] transition hover:text-white">
+                <Link href="https://www.linkedin.com/in/carolineaugusto" target="_blank" className="text-lg font-semibold text-[var(--color-muted)] transition hover:text-white">
                   LinkedIn
                 </Link>
                 <Link href="mailto:augustocarol89@gmail.com" className="text-lg font-semibold text-[var(--color-muted)] transition hover:text-white">

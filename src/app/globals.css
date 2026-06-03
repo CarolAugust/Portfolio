@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --color-page: #070a12;
+  --color-paper: #0d1320;
+  --color-paper-2: #121b2c;
+  --color-ink: #f4f8fb;
+  --color-muted: #9aa8b8;
+  --color-accent: #2dd4bf;
+  --color-accent-soft: #67e8f9;
+  --color-violet: #a78bfa;
+  --color-warning: #f8d36b;
+  --color-deep: #05070d;
+  --color-line: rgba(148, 163, 184, 0.16);
+  --shadow-soft: 0 24px 70px rgba(0, 0, 0, 0.34);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: var(--color-ink);
+  background:
+    linear-gradient(rgba(103, 232, 249, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(103, 232, 249, 0.045) 1px, transparent 1px),
+    linear-gradient(135deg, rgba(45, 212, 191, 0.16) 0%, transparent 26%),
+    linear-gradient(315deg, rgba(167, 139, 250, 0.12) 0%, transparent 26%),
+    linear-gradient(180deg, #080b13 0%, #0b1020 48%, #05070d 100%);
+  background-size: 44px 44px, 44px 44px, auto, auto, auto;
+  font-feature-settings: "kern", "liga", "calt";
+}
+
+.container-default {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+::selection {
+  background: rgba(45, 212, 191, 0.3);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .container-default {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}

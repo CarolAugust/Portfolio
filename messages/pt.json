@@ -1,0 +1,95 @@
+{
+  "Layout": {
+    "home": "Início",
+    "projects": "Projetos",
+    "about": "Sobre",
+    "contact": "Contato",
+    "cta": "Falar comigo",
+    "role": "Full Stack Jr · React | Node.js"
+  },
+  "Footer": {
+    "role": "Desenvolvedora Full Stack Jr",
+    "description": "Portfólio focado em projetos práticos, código organizado e evolução consistente em front-end e back-end.",
+    "projects": "Projetos",
+    "about": "Sobre"
+  },
+  "HomePage": {
+    "badge1": "FULL STACK EM EVOLUÇÃO",
+    "badge2": "REMOTO",
+    "badge3": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+    "rolePrefix": "Desenvolvedora",
+    "roleHighlight": "Full Stack Jr",
+    "description": "Construo aplicações web do front ao back com foco em código organizado, interfaces responsivas e projetos que mostram minha evolução prática com React, Next.js, Node.js e PostgreSQL.",
+    "viewProjects": "Ver projetos",
+    "contact": "Entrar em contato",
+    "projectsLabel": "Projetos",
+    "focusLabel": "Foco",
+    "focusValue": "Remoto",
+    "portfolio": "Portfólio",
+    "featuredProjects": "Projetos em destaque",
+    "featuredDescription": "Projetos que mostram minha prática com front-end, back-end, rotas, integração e banco de dados.",
+    "viewAll": "Ver todos"
+  },
+  "CTA": {
+    "badge": "DISPONÍVEL AGORA",
+    "title": "Pronta para contribuir com seu time",
+    "description": "Busco uma oportunidade remota para crescer, aprender em equipe e entregar valor real com desenvolvimento full stack.",
+    "button": "Entrar em contato"
+  },
+  "Skills": {
+  "eyebrow": "Stack",
+  "title": "Habilidades técnicas",
+  "footnote": "Estou sempre evoluindo minhas habilidades técnicas por meio de estudos, prática e projetos reais."
+
+  },
+  "Projects": {
+    "previewAlt": "Preview do projeto",
+    "projectInProgress": "Projeto em evolução",
+    "viewProject": "Ver projeto"
+  },
+  "ProjectsPage": {
+    "eyebrow": "Projetos",
+    "title": "Meus projetos",
+    "description": "Aqui estão alguns projetos que desenvolvi para praticar front-end, back-end, integração com APIs e modelagem de dados."
+  },
+  "ProjectDetails": {
+    "eyebrow": "Projeto",
+    "highlights": "Destaques",
+    "challenges": "Desafios",
+    "learnings": "Aprendizados",
+    "nextSteps": "Próximos passos"
+  },
+  "AboutPage": {
+    "eyebrow": "Quem sou eu",
+    "title": "Sobre mim",
+    "intro": "Desenvolvedora Full Stack Jr com foco em evolução constante, projetos práticos e construção de soluções web bem estruturadas.",
+    "journey": "Minha trajetória",
+    "role": "Desenvolvedora Full Stack Jr",
+    "paragraph1": "Sou formada em Análise e Desenvolvimento de Sistemas e venho construindo minha trajetória com foco em desenvolvimento full stack, participando de projetos que envolvem interface, backend, banco de dados e integração entre camadas da aplicação.",
+    "paragraph2": "Minha stack principal hoje inclui JavaScript, Node.js, React, Next.js, PostgreSQL, HTML e CSS. Busco uma oportunidade remota para continuar evoluindo tecnicamente, contribuir com projetos reais e crescer em equipe.",
+    "paragraph3": "Sou honesta sobre meu nível, aprendo rápido, gosto de colocar a mão na massa e tenho compromisso com melhoria contínua.",
+    "profileEyebrow": "Perfil profissional",
+    "profileTitle": "O que me define",
+    "card1Title": "Mão na massa",
+    "card1Description": "Prefiro aprender construindo. Cada projeto fortalece minha prática em desenvolvimento web e minha confiança para resolver problemas reais.",
+    "card2Title": "Aprendizado contínuo",
+    "card2Description": "Estudo com constância e busco evoluir todos os dias, sempre com disposição para aprender novas práticas e melhorar meu código.",
+    "card3Title": "Trabalho em equipe",
+    "card3Description": "Valorizo colaboração, comunicação clara e organização. Gosto de construir com feedback e evolução conjunta."
+  },
+  "ContactPage": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar",
+    "intro": "Aberta a oportunidades, freelas e colaborações. Manda uma mensagem.",
+    "infoTitle": "Informações",
+    "statusLabel": "Status:",
+    "statusValue": "disponível para oportunidades.",
+    "statusNote": "Respondo em até 24h durante dias úteis.",
+    "name": "Nome",
+    "namePlaceholder": "Seu nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "messagePlaceholder": "Olá, vi seu portfólio e queria conversar...",
+    "button": "Enviar mensagem"
+  }
+}

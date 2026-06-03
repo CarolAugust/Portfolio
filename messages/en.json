@@ -1,0 +1,95 @@
+{
+  "Layout": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Contact me",
+    "role": "Full Stack Jr · React | Node.js"
+  },
+  "Footer": {
+    "role": "Junior Full Stack Developer",
+    "description": "Portfolio focused on practical projects, organized code, and consistent growth in frontend and backend development.",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "HomePage": {
+    "badge1": "FULL STACK IN PROGRESS",
+    "badge2": "REMOTE",
+    "badge3": "SYSTEMS ANALYSIS AND DEVELOPMENT",
+    "rolePrefix": "Developer",
+    "roleHighlight": "Full Stack Jr",
+    "description": "I build web applications from frontend to backend with a focus on organized code, responsive interfaces, and projects that reflect my practical growth with React, Next.js, Node.js, and PostgreSQL.",
+    "viewProjects": "View projects",
+    "contact": "Get in touch",
+    "projectsLabel": "Projects",
+    "focusLabel": "Focus",
+    "focusValue": "Remote",
+    "portfolio": "Portfolio",
+    "featuredProjects": "Featured projects",
+    "featuredDescription": "Projects that show my hands-on experience with frontend, backend, routes, integrations, and databases.",
+    "viewAll": "View all"
+  },
+  "CTA": {
+    "badge": "AVAILABLE NOW",
+    "title": "Ready to contribute to your team",
+    "description": "I am looking for a remote opportunity to grow, learn with a team, and deliver real value through full stack development.",
+    "button": "Get in touch"
+  },
+ "Skills": {
+  "eyebrow": "Stack",
+  "title": "Technical skills",
+  "footnote": "I’m continuously improving my technical skills through study, practice, and real-world projects."
+
+  },
+  "Projects": {
+    "previewAlt": "Project preview",
+    "projectInProgress": "Project in progress",
+    "viewProject": "View project"
+  },
+  "ProjectsPage": {
+    "eyebrow": "Projects",
+    "title": "My projects",
+    "description": "Here are some projects I built to practice frontend, backend, API integration, and data modeling."
+  },
+  "ProjectDetails": {
+    "eyebrow": "Project",
+    "highlights": "Highlights",
+    "challenges": "Challenges",
+    "learnings": "Learnings",
+    "nextSteps": "Next steps"
+  },
+  "AboutPage": {
+    "eyebrow": "Who I am",
+    "title": "About me",
+    "intro": "A Junior Full Stack Developer focused on continuous growth, practical projects, and building well-structured web solutions.",
+    "journey": "My journey",
+    "role": "Junior Full Stack Developer",
+    "paragraph1": "I graduated in Systems Analysis and Development and have been building my path with a focus on full stack development, working on projects involving interface, backend, databases, and integration between application layers.",
+    "paragraph2": "My current main stack includes JavaScript, Node.js, React, Next.js, PostgreSQL, HTML, and CSS. I am looking for a remote opportunity to keep growing technically, contribute to real projects, and grow within a team.",
+    "paragraph3": "I am honest about my current level, I learn fast, I like getting hands-on, and I am committed to continuous improvement.",
+    "profileEyebrow": "Professional profile",
+    "profileTitle": "What defines me",
+    "card1Title": "Hands-on mindset",
+    "card1Description": "I prefer learning by building. Each project strengthens my web development practice and my confidence to solve real problems.",
+    "card2Title": "Continuous learning",
+    "card2Description": "I study consistently and aim to improve every day, always willing to learn new practices and improve my code.",
+    "card3Title": "Teamwork",
+    "card3Description": "I value collaboration, clear communication, and organization. I like building with feedback and shared growth."
+  },
+  "ContactPage": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "intro": "Open to opportunities, freelance work, and collaborations. Send me a message.",
+    "infoTitle": "Information",
+    "statusLabel": "Status:",
+    "statusValue": "available for opportunities.",
+    "statusNote": "I usually reply within 24 hours on business days.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Hi, I saw your portfolio and would like to talk...",
+    "button": "Send message"
+  }
+}

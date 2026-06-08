@@ -1,4 +1,6 @@
 export const projects = [
+
+
   {
     slug: "crm",
     image: "/projects/crm1.png",
@@ -31,7 +33,11 @@ export const projects = [
           en: "Quote details inside the CRM.",
         },
       },
+
+    
+
     ],
+
     title: {
       pt: "CRM",
       en: "CRM",
@@ -436,6 +442,103 @@ export const projects = [
       en: "Operational module for gatehouse control, with active vehicles, visitors, daily records, and parking spot indicators. The proposal helps monitor entry and exit flow in a clear and objective way.",
     },
     stack: ["React", "Next.js", "Node.js", "PostgreSQL"],
+    highlights: {
+      pt: [
+        "Cards operacionais para veículos e visitantes",
+        "Indicadores de vagas livres e ocupadas",
+        "Visualização rápida para equipe de portaria",
+        "Base preparada para integração com dados do pátio",
+      ],
+      en: [
+        "Operational cards for vehicles and visitors",
+        "Indicators for free and occupied spots",
+        "Quick view for gatehouse staff",
+        "Base prepared for yard data integration",
+      ],
+    },
+    challenges: {
+      pt: [
+        "Transformar dados operacionais em leitura simples",
+        "Organizar métricas importantes em uma tela única",
+        "Pensar em fluxo prático para uso diário",
+      ],
+      en: [
+        "Turning operational data into a simple reading experience",
+        "Organizing important metrics on a single screen",
+        "Designing a practical flow for daily use",
+      ],
+    },
+    learnings: {
+      pt: [
+        "Criação de dashboards operacionais",
+        "Hierarquia visual para dados em tempo real",
+        "Modelagem de informações de controle de acesso",
+      ],
+      en: [
+        "Creating operational dashboards",
+        "Visual hierarchy for real-time data",
+        "Modeling access control information",
+      ],
+    },
+    nextSteps: {
+      pt: [
+        "Conectar com registros reais de entrada e saída",
+        "Adicionar histórico por veículo",
+        "Criar filtros por data e status",
+      ],
+      en: [
+        "Connect with real entry and exit records",
+        "Add vehicle history",
+        "Create filters by date and status",
+      ],
+    },
+  },
+
+
+{
+
+  
+    slug: "buscador-cte-notas-fiscais-duplicadas",
+    image: "/projects/projetoduplicado.png",
+    images: [
+      {
+        src: "/projects/projetoduplicado.png",
+        alt: {
+          pt: "Tela de busca de CTE e notas fiscais duplicadas com filtros e tabela de resultados.",
+          en: "Duplicate CTE and tax invoice search screen with filters and results table.",
+        },
+      },
+      {
+        src: "/projects/projetoduplicado2.png",
+        alt: {
+          pt: "Segunda tela do buscador de CTE e notas fiscais duplicadas com resultados detalhados.",
+          en: "Second screen of the duplicate CTE and tax invoice search with detailed results.",
+        },
+      },
+    ],
+    imageView: {
+      card: {
+        objectFit: "contain",
+        objectPosition: "center center",
+      },
+      detail: {
+        objectFit: "contain",
+        objectPosition: "center center",
+      },
+    },
+    title: {
+      pt: "Buscador de CTE e Notas Fiscais Duplicadas",
+      en: "Duplicate CTE and Tax Invoice Search",
+    },
+    shortDescription: {
+      pt: "Tela de buscar com o filtro CTE ou Nota Fiscal para identificar registros duplicados, com exibição de resultados em tabela.",
+      en: "Search screen with CTE or Tax Invoice filter to identify duplicate records, with results displayed in a table.",
+    },
+    description: {
+      pt: "Módulo para busca de registros duplicados de CTE e Notas Fiscais, com filtro por número e exibição dos resultados em tabela. A proposta ajuda a identificar possíveis duplicidades de forma rápida e prática, facilitando a gestão de documentos fiscais.",
+      en: "Module for searching duplicate CTE and tax invoice records, with filtering by number and displaying results in a table. The proposal helps identify possible duplications quickly and practically, facilitating tax document management.",
+    },
+    stack: ["Python","PostgreSQL"],
     highlights: {
       pt: [
         "Cards operacionais para veículos e visitantes",

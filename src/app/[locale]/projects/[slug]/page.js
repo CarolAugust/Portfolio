@@ -65,6 +65,7 @@ export default async function ProjectDetailsPage({ params }) {
                     alt={image.alt?.[locale] ?? `${t("eyebrow")} ${project.title[locale]}`}
                     fill
                     priority={index === 0}
+                    quality={95}
                     sizes="(max-width: 768px) 100vw, 896px"
                     className="object-contain"
                     style={index === 0 ? mediaStyle : undefined}

@@ -62,14 +62,30 @@ export default function ContactPage() {
                     IN
                   </div>
                   <Link
-                    href="www.linkedin.com/in/carolineaugusto"
+                    href="https://www.linkedin.com/in/carolineaugusto/"
                     target="_blank"
                     className="break-all text-base text-[var(--color-muted)] transition hover:text-white md:text-lg"
                   >
-                    linkedin.com/in/caroline-augusto-dev
+                    linkedin.com/in/carolineaugusto
                   </Link>
                 </div>
               </div>
+
+              <div className="flex items-center gap-4 rounded-lg border border-[var(--color-line)] bg-white/[0.04] p-4">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-[rgba(34,197,94,0.28)] bg-[rgba(34,197,94,0.1)] text-xs font-black text-green-400">
+                  WA
+                </div>
+
+                <Link
+                  href="https://wa.me/41988320056?text=Ol%C3%A1%20Caroline%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA%20pelo%20seu%20portf%C3%B3lio."
+                  target="_blank"
+                  className="break-all text-base text-[var(--color-muted)] transition hover:text-white md:text-lg"
+                >
+                  whatsapp
+                </Link>
+              </div>
+
+
 
               <div className="mt-8 rounded-lg border border-[rgba(45,212,191,0.22)] bg-[rgba(45,212,191,0.08)] p-5">
                 <p className="text-base leading-8 text-[var(--color-muted)] md:text-lg">
